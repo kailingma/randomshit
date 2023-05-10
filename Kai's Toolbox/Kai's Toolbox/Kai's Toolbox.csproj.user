@@ -4,7 +4,10 @@
     <Compile Update="credits.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="kaisdownloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="kaistoolbox.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

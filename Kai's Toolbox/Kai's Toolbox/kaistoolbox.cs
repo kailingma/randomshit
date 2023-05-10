@@ -1,17 +1,20 @@
+using Kais_Downloader_V3;
+
 namespace Kai_s_Toolbox
 {
-    public partial class Form1 : Form
+    public partial class kaistoolbox : Form
     {
         public string CloseReason { get; private set; }
 
-        public Form1()
+        public kaistoolbox()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            kaisdownloader objUI = new kaisdownloader();
+            objUI.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)

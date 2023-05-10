@@ -1,6 +1,6 @@
 ﻿namespace Kai_s_Toolbox
 {
-    partial class Form1
+    partial class kaistoolbox
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(kaistoolbox));
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -42,11 +42,15 @@
             toolStripButton1 = new ToolStripDropDownButton();
             helpToolStripMenuItem = new ToolStripMenuItem();
             aboutToolStripMenuItem = new ToolStripMenuItem();
+            toolStripButton2 = new ToolStripDropDownButton();
+            kaisToolboxToolStripMenuItem = new ToolStripMenuItem();
+            kaisDownloaderToolStripMenuItem = new ToolStripMenuItem();
             toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
+            button1.Enabled = false;
             button1.Location = new Point(12, 272);
             button1.Name = "button1";
             button1.Size = new Size(288, 112);
@@ -57,6 +61,7 @@
             // 
             // button2
             // 
+            button2.Enabled = false;
             button2.Location = new Point(320, 272);
             button2.Name = "button2";
             button2.Size = new Size(288, 112);
@@ -76,6 +81,7 @@
             // 
             // button4
             // 
+            button4.Enabled = false;
             button4.Location = new Point(320, 140);
             button4.Name = "button4";
             button4.Size = new Size(288, 112);
@@ -105,7 +111,7 @@
             // toolStrip1
             // 
             toolStrip1.GripStyle = ToolStripGripStyle.Hidden;
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripLabel1, toolStripDropDownButton2, toolStripButton1 });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripLabel1, toolStripDropDownButton2, toolStripButton2, toolStripButton1 });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(620, 25);
@@ -131,7 +137,7 @@
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(180, 22);
+            exitToolStripMenuItem.Size = new Size(93, 22);
             exitToolStripMenuItem.Text = "Exit";
             exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
@@ -147,7 +153,9 @@
             // 
             // helpToolStripMenuItem
             // 
+            helpToolStripMenuItem.Enabled = false;
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            helpToolStripMenuItem.ShortcutKeyDisplayString = "F1";
             helpToolStripMenuItem.Size = new Size(180, 22);
             helpToolStripMenuItem.Text = "Help";
             // 
@@ -157,6 +165,28 @@
             aboutToolStripMenuItem.Size = new Size(180, 22);
             aboutToolStripMenuItem.Text = "About";
             aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
+            // 
+            // toolStripButton2
+            // 
+            toolStripButton2.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            toolStripButton2.DropDownItems.AddRange(new ToolStripItem[] { kaisToolboxToolStripMenuItem, kaisDownloaderToolStripMenuItem });
+            toolStripButton2.Image = (Image)resources.GetObject("toolStripButton2.Image");
+            toolStripButton2.ImageTransparentColor = Color.Magenta;
+            toolStripButton2.Name = "toolStripButton2";
+            toolStripButton2.Size = new Size(64, 22);
+            toolStripButton2.Text = "Window";
+            // 
+            // kaisToolboxToolStripMenuItem
+            // 
+            kaisToolboxToolStripMenuItem.Name = "kaisToolboxToolStripMenuItem";
+            kaisToolboxToolStripMenuItem.Size = new Size(180, 22);
+            kaisToolboxToolStripMenuItem.Text = "Kai's Toolbox";
+            // 
+            // kaisDownloaderToolStripMenuItem
+            // 
+            kaisDownloaderToolStripMenuItem.Name = "kaisDownloaderToolStripMenuItem";
+            kaisDownloaderToolStripMenuItem.Size = new Size(180, 22);
+            kaisDownloaderToolStripMenuItem.Text = "Kai's Downloader";
             // 
             // Form1
             // 
@@ -193,5 +223,8 @@
         private ToolStripDropDownButton toolStripButton1;
         private ToolStripMenuItem helpToolStripMenuItem;
         private ToolStripMenuItem aboutToolStripMenuItem;
+        private ToolStripDropDownButton toolStripButton2;
+        private ToolStripMenuItem kaisToolboxToolStripMenuItem;
+        private ToolStripMenuItem kaisDownloaderToolStripMenuItem;
     }
 }

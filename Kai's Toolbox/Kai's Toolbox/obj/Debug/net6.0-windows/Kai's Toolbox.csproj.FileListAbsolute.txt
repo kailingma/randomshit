@@ -17,3 +17,26 @@ C:\Users\User\Documents\GitHub\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\
 C:\Users\User\Documents\GitHub\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.pdb
 C:\Users\User\Documents\GitHub\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.genruntimeconfig.cache
 C:\Users\User\Documents\GitHub\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\ref\Kai's Toolbox.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Kai's Toolbox.exe
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Kai's Toolbox.deps.json
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Kai's Toolbox.runtimeconfig.json
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Kai's Toolbox.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Kai's Toolbox.pdb
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.credits.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.Properties.Resources.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.AssemblyInfo.cs
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\refint\Kai's Toolbox.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.pdb
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.genruntimeconfig.cache
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\ref\Kai's Toolbox.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kais_Downloader_V3.kaisdownloader.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.kaistoolbox.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\AltoHttp.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.csproj.CopyComplete
