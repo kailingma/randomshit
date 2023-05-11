@@ -20,7 +20,7 @@ namespace Kai_s_Toolbox
         private void button3_Click(object sender, EventArgs e)
         {
             // The kai's downloader button //
-            kaisdownloader form = new kaisdownloader();
+            kaisdownloader form = new Kai();
             form.Show();
         }
 
