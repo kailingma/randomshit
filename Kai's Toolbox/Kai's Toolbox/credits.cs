@@ -17,9 +17,7 @@ namespace Kai_s_Toolbox
     public partial class credits : Form
     {
 
-        public int developerModeClicks;
-        public bool developerModeEnabled;
-
+        
         public credits()
         {
             InitializeComponent();
@@ -41,21 +39,12 @@ namespace Kai_s_Toolbox
 
         }
 
+        public static bool developerModeEnabled = true;
+
         private void label4_Click(object sender, EventArgs e)
         {
 
-            if (developerModeClicks < 10)
-            {
-                developerModeClicks = developerModeClicks + 1;
-
-
-            }
-            else if (developerModeClicks == 10)
-            {
-                MessageBox.Show("You are now a developer!!", developerModeEnabled.ToString());
-            }
-            else
-                MessageBox.Show("hmmm... something happened. let's try that again.", "Uh Oh!!! :(");
+            // send between forms //
 
         }
     }

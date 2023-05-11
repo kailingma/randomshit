@@ -20,8 +20,8 @@ namespace Kai_s_Toolbox
         private void button3_Click(object sender, EventArgs e)
         {
             // The kai's downloader button //
-            kaisfoldersync objUI = new kaisfoldersync();
-            objUI.ShowDialog();
+            kaisdownloader form = new kaisdownloader();
+            form.Show();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
