@@ -9,17 +9,19 @@ namespace Kai_s_Toolbox
         public kaistoolbox()
         {
             InitializeComponent();
+            var developerModeEnabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            kaisdownloader objUI = new kaisdownloader();
-            objUI.ShowDialog();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            // The kai's downloader button //
+            kaisfoldersync objUI = new kaisfoldersync();
+            objUI.ShowDialog();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -41,6 +43,31 @@ namespace Kai_s_Toolbox
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             credits objUI = new credits();
+            objUI.ShowDialog();
+        }
+
+        private void lblTime_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kaistoolbox_Load(object sender, EventArgs e)
+        {
+            // update date and time on load //
+            lblTime.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            // update date and time every "tick" //
+            lblTime.Text = DateTime.Now.ToLongTimeString();
+            // check for developer mode//
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Folder sync btn //
+            kaisfoldersync objUI = new kaisfoldersync();
             objUI.ShowDialog();
         }
     }

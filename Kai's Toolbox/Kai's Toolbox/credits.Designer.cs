@@ -34,6 +34,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -41,7 +42,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.icons8_full_tool_storage_box_96;
-            pictureBox1.Location = new Point(164, 12);
+            pictureBox1.Location = new Point(153, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(102, 100);
             pictureBox1.TabIndex = 0;
@@ -69,7 +70,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(80, 188);
+            label2.Location = new Point(78, 186);
             label2.Name = "label2";
             label2.Size = new Size(248, 90);
             label2.TabIndex = 4;
@@ -81,24 +82,39 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(118, 115);
+            label3.Location = new Point(112, 115);
             label3.Name = "label3";
             label3.Size = new Size(188, 37);
             label3.TabIndex = 5;
             label3.Text = "Kai's Toolbox";
             label3.Click += label3_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(162, 292);
+            label4.Name = "label4";
+            label4.Size = new Size(72, 15);
+            label4.TabIndex = 6;
+            label4.Text = "Version 1.2.3";
+            label4.TextAlign = ContentAlignment.TopCenter;
+            label4.Click += label4_Click;
+            // 
             // credits
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(420, 344);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(pictureBox2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "credits";
             Text = "About - Kai's toolbox";
             Load += credits_Load;
@@ -115,5 +131,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Label label4;
     }
 }

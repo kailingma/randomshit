@@ -35,8 +35,10 @@ C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.pdb
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.genruntimeconfig.cache
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\ref\Kai's Toolbox.dll
-C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kais_Downloader_V3.kaisdownloader.resources
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.kaistoolbox.resources
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\AltoHttp.dll
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.csproj.CopyComplete
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Folder_Syncer.kaisfoldersync.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kais_Downloader_V3.kaisfoldersync.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.kitchensink.resources

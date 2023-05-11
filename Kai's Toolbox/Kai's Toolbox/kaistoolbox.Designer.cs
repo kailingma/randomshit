@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(kaistoolbox));
             button1 = new Button();
             button2 = new Button();
@@ -39,12 +40,15 @@
             toolStripLabel1 = new ToolStripLabel();
             toolStripDropDownButton2 = new ToolStripDropDownButton();
             exitToolStripMenuItem = new ToolStripMenuItem();
-            toolStripButton1 = new ToolStripDropDownButton();
-            helpToolStripMenuItem = new ToolStripMenuItem();
-            aboutToolStripMenuItem = new ToolStripMenuItem();
             toolStripButton2 = new ToolStripDropDownButton();
             kaisToolboxToolStripMenuItem = new ToolStripMenuItem();
             kaisDownloaderToolStripMenuItem = new ToolStripMenuItem();
+            kaisFolderSyncToolStripMenuItem = new ToolStripMenuItem();
+            toolStripButton1 = new ToolStripDropDownButton();
+            helpToolStripMenuItem = new ToolStripMenuItem();
+            aboutToolStripMenuItem = new ToolStripMenuItem();
+            lblTime = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -55,7 +59,7 @@
             button1.Name = "button1";
             button1.Size = new Size(288, 112);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "The kitchen sink";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -81,13 +85,13 @@
             // 
             // button4
             // 
-            button4.Enabled = false;
             button4.Location = new Point(320, 140);
             button4.Name = "button4";
             button4.Size = new Size(288, 112);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "Kai's Folder Sync";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // label1
             // 
@@ -114,7 +118,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripLabel1, toolStripDropDownButton2, toolStripButton2, toolStripButton1 });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(620, 25);
+            toolStrip1.Size = new Size(623, 25);
             toolStrip1.TabIndex = 7;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -141,6 +145,34 @@
             exitToolStripMenuItem.Text = "Exit";
             exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
+            // toolStripButton2
+            // 
+            toolStripButton2.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            toolStripButton2.DropDownItems.AddRange(new ToolStripItem[] { kaisToolboxToolStripMenuItem, kaisDownloaderToolStripMenuItem, kaisFolderSyncToolStripMenuItem });
+            toolStripButton2.Image = (Image)resources.GetObject("toolStripButton2.Image");
+            toolStripButton2.ImageTransparentColor = Color.Magenta;
+            toolStripButton2.Name = "toolStripButton2";
+            toolStripButton2.Size = new Size(64, 22);
+            toolStripButton2.Text = "Window";
+            // 
+            // kaisToolboxToolStripMenuItem
+            // 
+            kaisToolboxToolStripMenuItem.Name = "kaisToolboxToolStripMenuItem";
+            kaisToolboxToolStripMenuItem.Size = new Size(165, 22);
+            kaisToolboxToolStripMenuItem.Text = "Kai's Toolbox";
+            // 
+            // kaisDownloaderToolStripMenuItem
+            // 
+            kaisDownloaderToolStripMenuItem.Name = "kaisDownloaderToolStripMenuItem";
+            kaisDownloaderToolStripMenuItem.Size = new Size(165, 22);
+            kaisDownloaderToolStripMenuItem.Text = "Kai's Downloader";
+            // 
+            // kaisFolderSyncToolStripMenuItem
+            // 
+            kaisFolderSyncToolStripMenuItem.Name = "kaisFolderSyncToolStripMenuItem";
+            kaisFolderSyncToolStripMenuItem.Size = new Size(165, 22);
+            kaisFolderSyncToolStripMenuItem.Text = "Kai's Folder Sync";
+            // 
             // toolStripButton1
             // 
             toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Text;
@@ -156,43 +188,37 @@
             helpToolStripMenuItem.Enabled = false;
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             helpToolStripMenuItem.ShortcutKeyDisplayString = "F1";
-            helpToolStripMenuItem.Size = new Size(180, 22);
+            helpToolStripMenuItem.Size = new Size(118, 22);
             helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(180, 22);
+            aboutToolStripMenuItem.Size = new Size(118, 22);
             aboutToolStripMenuItem.Text = "About";
             aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
             // 
-            // toolStripButton2
+            // lblTime
             // 
-            toolStripButton2.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            toolStripButton2.DropDownItems.AddRange(new ToolStripItem[] { kaisToolboxToolStripMenuItem, kaisDownloaderToolStripMenuItem });
-            toolStripButton2.Image = (Image)resources.GetObject("toolStripButton2.Image");
-            toolStripButton2.ImageTransparentColor = Color.Magenta;
-            toolStripButton2.Name = "toolStripButton2";
-            toolStripButton2.Size = new Size(64, 22);
-            toolStripButton2.Text = "Window";
+            lblTime.AutoSize = true;
+            lblTime.Location = new Point(542, 25);
+            lblTime.Name = "lblTime";
+            lblTime.Size = new Size(34, 15);
+            lblTime.TabIndex = 8;
+            lblTime.Text = "00:00";
+            lblTime.Click += lblTime_Click;
             // 
-            // kaisToolboxToolStripMenuItem
+            // timer1
             // 
-            kaisToolboxToolStripMenuItem.Name = "kaisToolboxToolStripMenuItem";
-            kaisToolboxToolStripMenuItem.Size = new Size(180, 22);
-            kaisToolboxToolStripMenuItem.Text = "Kai's Toolbox";
+            timer1.Enabled = true;
+            timer1.Tick += timer1_Tick;
             // 
-            // kaisDownloaderToolStripMenuItem
-            // 
-            kaisDownloaderToolStripMenuItem.Name = "kaisDownloaderToolStripMenuItem";
-            kaisDownloaderToolStripMenuItem.Size = new Size(180, 22);
-            kaisDownloaderToolStripMenuItem.Text = "Kai's Downloader";
-            // 
-            // Form1
+            // kaistoolbox
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(620, 411);
+            ClientSize = new Size(623, 411);
+            Controls.Add(lblTime);
             Controls.Add(toolStrip1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -200,8 +226,11 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "Form1";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            Name = "kaistoolbox";
             Text = "Form1";
+            Load += kaistoolbox_Load;
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             ResumeLayout(false);
@@ -226,5 +255,8 @@
         private ToolStripDropDownButton toolStripButton2;
         private ToolStripMenuItem kaisToolboxToolStripMenuItem;
         private ToolStripMenuItem kaisDownloaderToolStripMenuItem;
+        private Label lblTime;
+        private System.Windows.Forms.Timer timer1;
+        private ToolStripMenuItem kaisFolderSyncToolStripMenuItem;
     }
 }
