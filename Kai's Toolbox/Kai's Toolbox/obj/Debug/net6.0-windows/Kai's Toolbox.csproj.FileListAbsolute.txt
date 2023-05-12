@@ -40,5 +40,5 @@ C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai's Toolbox.csproj.CopyComplete
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Folder_Syncer.kaisfoldersync.resources
-C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kais_Downloader_V3.kaisfoldersync.resources
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.kitchensink.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kais_Downloader_V3.kaisdownloader.resources

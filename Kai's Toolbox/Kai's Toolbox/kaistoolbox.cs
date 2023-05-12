@@ -1,3 +1,4 @@
+using Kai_s_Folder_Syncer;
 using Kais_Downloader_V3;
 
 namespace Kai_s_Toolbox
@@ -20,8 +21,9 @@ namespace Kai_s_Toolbox
         private void button3_Click(object sender, EventArgs e)
         {
             // The kai's downloader button //
-            kaisdownloader form = new Kai();
-            form.Show();
+            kaisdownloader objUI = new();
+            objUI.ShowDialog();
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -42,8 +44,8 @@ namespace Kai_s_Toolbox
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            credits objUI = new credits();
-            objUI.ShowDialog();
+            credits creditsForm = new credits();
+            creditsForm.Show();
         }
 
         private void lblTime_Click(object sender, EventArgs e)
@@ -67,8 +69,8 @@ namespace Kai_s_Toolbox
         private void button4_Click(object sender, EventArgs e)
         {
             // Folder sync btn //
-            kaisfoldersync objUI = new kaisfoldersync();
-            objUI.ShowDialog();
+            kaisfoldersync syncForm = new();
+            syncForm.Show();
         }
     }
 }

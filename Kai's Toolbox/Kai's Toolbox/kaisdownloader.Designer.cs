@@ -2,7 +2,7 @@
 
 namespace Kais_Downloader_V3
 {
-    partial class kaisfoldersync
+    partial class kaisdownloader
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Kais_Downloader_V3
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(kaisfoldersync));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(kaisdownloader));
             progressBar = new ProgressBar();
             btnDownload = new Button();
             txtUrl = new TextBox();

@@ -12,9 +12,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Kais_Downloader_V3
 {
-    public partial class kaisfoldersync : Form
+    public partial class kaisdownloader : Form
     {
-        public kaisfoldersync()
+        public kaisdownloader()
         {
             InitializeComponent();
         }
