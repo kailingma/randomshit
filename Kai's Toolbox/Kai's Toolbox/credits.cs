@@ -52,8 +52,9 @@ namespace Kai_s_Toolbox
             }
             else if (developerModeActivatorClicks == 10)
             {
-                label4.Text = "Developer mode has been enabled!";
                 kaistoolbox.developerModeEnabled = true;
+                MessageBox.Show("Developer mode has been enabled!", kaistoolbox.developerModeEnabled.ToString());
+                
 
             }
             // send between forms //

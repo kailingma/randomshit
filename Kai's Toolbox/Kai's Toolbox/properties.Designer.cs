@@ -66,6 +66,11 @@
             tabPage2.Text = "Developer Settings";
             tabPage2.UseVisualStyleBackColor = true;
             // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Tick += timer1_Tick;
+            // 
             // properties
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
