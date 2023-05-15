@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             tabPage2 = new TabPage();
+            timer1 = new System.Windows.Forms.Timer(components);
             tabControl1.SuspendLayout();
             SuspendLayout();
             // 
@@ -51,7 +53,7 @@
             tabPage1.Padding = new Padding(3);
             tabPage1.Size = new Size(394, 420);
             tabPage1.TabIndex = 0;
-            tabPage1.Text = "tabPage1";
+            tabPage1.Text = "General";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -61,7 +63,7 @@
             tabPage2.Padding = new Padding(3);
             tabPage2.Size = new Size(394, 420);
             tabPage2.TabIndex = 1;
-            tabPage2.Text = "tabPage2";
+            tabPage2.Text = "Developer Settings";
             tabPage2.UseVisualStyleBackColor = true;
             // 
             // properties
@@ -81,5 +83,6 @@
         private TabControl tabControl1;
         private TabPage tabPage1;
         private TabPage tabPage2;
+        private System.Windows.Forms.Timer timer1;
     }
 }
