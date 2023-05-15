@@ -42,3 +42,6 @@ C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Folder_Syncer.kaisfoldersync.resources
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.kitchensink.resources
 C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kais_Downloader_V3.kaisdownloader.resources
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\Kai's Toolbox.dll.config
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\bin\Debug\net6.0-windows\MaterialSkin.dll
+C:\Users\User\Source\Repos\kailingma\randomshit\Kai's Toolbox\Kai's Toolbox\obj\Debug\net6.0-windows\Kai_s_Toolbox.properties.resources

@@ -7,22 +7,25 @@ namespace Kai_s_Toolbox
     {
         public string CloseReason { get; private set; }
 
+        public static bool developerModeEnabled = false;
+
         public kaistoolbox()
         {
             InitializeComponent();
-            var developerModeEnabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            // kitchen sink btn //
+            kitchensink kSink = new();
+            kSink.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             // The kai's downloader button //
-            kaisdownloader objUI = new();
-            objUI.ShowDialog();
+            kaisdownloader kDownloader = new();
+            kDownloader.ShowDialog();
 
         }
 
@@ -57,6 +60,7 @@ namespace Kai_s_Toolbox
         {
             // update date and time on load //
             lblTime.Text = DateTime.Now.ToLongTimeString();
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -64,6 +68,25 @@ namespace Kai_s_Toolbox
             // update date and time every "tick" //
             lblTime.Text = DateTime.Now.ToLongTimeString();
             // check for developer mode//
+            if (developerModeEnabled == true)
+            {
+                button1.Enabled = true;
+            }
+            else
+            {
+                button1.Enabled = false;
+            }
+            // enable or disable the enable dev mode button //
+            if (Properties.Settings.Default.DeveloperRelease == true)
+            {
+                button5.Visible = true;
+            }
+            else
+            {
+                button5.Visible = false;
+            }
+            //  //
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -71,6 +94,22 @@ namespace Kai_s_Toolbox
             // Folder sync btn //
             kaisfoldersync syncForm = new();
             syncForm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            developerModeEnabled = true;
+        }
+
+        private void toolStripDropDownButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void propertiesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            properties propertiesDialog = new();
+            propertiesDialog.ShowDialog();
         }
     }
 }

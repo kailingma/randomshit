@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(credits));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
@@ -35,6 +36,7 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -91,14 +93,20 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             label4.AutoSize = true;
             label4.Location = new Point(162, 292);
             label4.Name = "label4";
             label4.Size = new Size(72, 15);
             label4.TabIndex = 6;
             label4.Text = "Version 1.2.3";
-            label4.TextAlign = ContentAlignment.TopCenter;
+            label4.TextAlign = ContentAlignment.MiddleCenter;
             label4.Click += label4_Click;
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Tick += timer1_Tick;
             // 
             // credits
             // 
@@ -132,5 +140,6 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -48,6 +48,10 @@
             "AltoHttp": {
               "target": "Package",
               "version": "[1.5.2, )"
+            },
+            "MaterialSkin.2": {
+              "target": "Package",
+              "version": "[2.1.3, )"
             }
           },
           "imports": [

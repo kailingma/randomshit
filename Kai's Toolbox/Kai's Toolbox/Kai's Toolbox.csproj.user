@@ -16,5 +16,8 @@
     <Compile Update="kitchensink.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
